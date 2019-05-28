@@ -7,9 +7,7 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-
     <Router>
-      <div>
       <Navbar>
         <React.Fragment>
           <Route exact path="/" component={About} />
@@ -18,7 +16,6 @@ function App() {
           <Route exact path="/search" component={Search} />
         </React.Fragment>
       </Navbar>
-      </div>
     </Router>
   );
 }
